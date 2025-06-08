@@ -1,0 +1,34 @@
+/* Google fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@600&family=Roboto&display=swap');
+
+/* css reset */
+*, *::before, *::after {
+box-sizing: border-box;
+}
+
+img, picture, svg, video {
+display: block;
+max-width: 100%;
+}
+
+input, textarea, button, select {
+font: inherit;
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+min-height: 100vh;
+font-family: 'Roboto', serif;
+}
+
+h1,h2,h3{
+  font-family: 'Kalnia', serif;
+}
+a{
+  text-decoration: none;
+  color:inherit
+}
